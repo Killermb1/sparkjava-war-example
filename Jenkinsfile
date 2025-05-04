@@ -1,7 +1,7 @@
 pipeline{
   agent any
   environment{
-    PATH="/opt/maven/bin:$PATH"
+    PATH="/opt/maven/bin:$PATH"  // to set maven path
   }
   stages{
     stage('build war'){
